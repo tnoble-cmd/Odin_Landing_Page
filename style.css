@@ -1,0 +1,58 @@
+
+#header-hero-wrapper{
+    background-color: #1F2937; 
+    
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 18px;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-card{
+    align-self: center;
+    
+}
+
+.Signup{
+    
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-width: 0em;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 15px 5px 15px;
+    
+
+}
+
+.header-logo{
+    height: 250px;
+    width: 250px; 
+}
+
+.header-links{
+    font-size: 18px;
+    list-style-type: none;
+
+}
+
+.header-links a {
+    color: #F9FAF8;
+    text-decoration: none;
+    
+}
+
+.hero-img{
+    height: 300px; 
+    width: 500px;   
+}
