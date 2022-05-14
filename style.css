@@ -6,15 +6,17 @@
     box-sizing: border-box;
     align-items: center;
     overflow: hidden;
-    
-    
+    font-family: "Audiowide", sans-serif;
+    flex-flow: column wrap;
 }
+    
+    
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 24px;
     color: #F9FAF8;
     width: 100%;
     border: 10px;
@@ -27,28 +29,45 @@
 .hero{
     display: flex;
     justify-content: center;
-
-    color: #F9FAF8;
+    color: #e5e7eb;
     justify-content: space-evenly;
+    font-family: "Audiowide", sans-serif;
     
+    margin: 100px;
+    padding: 100px;
 }
 
-.hero-card{
-    align-self: center;
-    background-color: rgba(0, 0, 0, 0.294);;
 
+.hero-img{
+    border-radius: 40px ;
+    border: solid color ;
+ 
+ 
     
 }
 
 .Signup{
     
-    background-color: #3882f6;
+    background-image: linear-gradient(180deg, #7e1bf7, rgba(0, 0, 0, 0));
     border-color: #dae6f8;
     border-width: 1px;
     border-radius: 5px;
     color: #eaeee5;
     padding: 5px 15px 5px 15px;
+    height: 30px;
+    width: 100px;
     
+
+}
+
+.Signup:hover{
+    background-image: linear-gradient(180deg, #7e1bf7, rgba(0, 0, 0, 0));
+    border-color: #dae6f8;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #eaeee5;
+    padding: 5px 15px 5px 15px;
+    text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
 
 }
 
@@ -67,12 +86,76 @@
     
 }
 
+.header-links a:hover {
+    color: #F9FAF8;
+    text-decoration: none;
+    padding-right: 50px;
+    text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+
+}
+
 .hero-img{
-    height: 300px; 
-    width: 500px;  
+    height: 350px; 
+    width: 250px;  
     
      
 }
+
+.hero2{
+    flex-wrap: wrap;
+    padding: 64px;
+    color: #dae6f8;
+}
+
+p{
+}
+
+.hero2 h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 100px;
+
+}
+#recipe{
+    
+}
+.card{
+    max-width: 150px;
+    color: #e1e9f400;
+    
+   
+}
+
+.card:hover{
+    color: #e1e9f4fd;
+    transition: ease-in .7s;
+}
+
+.content-img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #090401a4; 
+    background-image: linear-gradient(180deg, #771bf7, rgba(0, 0, 0, 0));
+    border-radius: 100px;
+    transition: ease 0.1s;
+}
+
+.content-img:hover {
+    transform:scale(1.05);
+}
+
+.cards{
+    display:flex;
+    justify-content: space-around;
+    gap: 5px;
+    flex-flow: row wrap;
+    color: #F9FAF8
+}
+
+
+
+
 
 #background {
     position: fixed;
