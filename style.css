@@ -107,9 +107,6 @@
     color: #dae6f8;
 }
 
-p{
-}
-
 .hero2 h2{
     font-size: 36px;
     font-weight: bolder;
@@ -123,6 +120,7 @@ p{
 .card{
     max-width: 150px;
     color: #e1e9f400;
+    
     
    
 }
