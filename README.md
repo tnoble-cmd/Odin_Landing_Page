@@ -1,2 +1,2 @@
 My Second "The Odin Project" project! This Project is a landing page consisting of basic HTML structure and CSS. I will be using basic CSS and Flex-box, Div styling, and element placement. This is all based on the template >>> https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png .
-Visualizing this by eye, I used what I have learned thus far in the "Foundations" section of this curriculum to recreate a close representation of what is provided in the link above.
+I have created my own style of the projects landing page assignment, while keeping all of the requierments notated in the assignment. 
