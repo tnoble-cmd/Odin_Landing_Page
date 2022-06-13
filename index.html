@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code With Me!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7cf5c60ad.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="backgroundContainer">
+    *<div class="backgroundContainer">
         <video id = "background" autoplay loop muted>
             <source src="Landing-images/video.mp4" type="video/mp4">
         </video>
@@ -19,48 +21,51 @@
         <div class="header">
             <h1>My Journey: The Odin Project</h1>
             <ul class="header-links">
-                <span class = "hlink"><a href="#card">Projects</a></span>
-                <span class = "hlink"><a href="?">Coding Contracts</a></span>
-                <span class = "hlink"><a href="?">Contact Us</a></span>
+                <span class = "hlink"><a href="#projects">Projects</a></span>
+                <span class = "hlink"><a href="#quote">Quote</a></span>
+                <span class = "hlink"><a href="#connect">Contact</a></span>
             </ul>
         </div>
         <div class="hero"> 
             <div class="hero-card"> 
-                <h1>About Me</h1>
+                <h1 id="about">About Me</h1>
                 <p>Hey my name is Tyler Noble. I am currently working on the Odin Project<br> and working towards becoming a Full-Stack Developer! This page displays<br> my journey through the "Fundamentals" section of the course. You can <br> find my projects and contact info below!</p>
-                <button class="Signup" type="button" alt="Sign Up Button">Contact Me</button>
+                <button class="Signup" type="button" alt="Contact Me Button">Contact Me</button>
             </div>
             <img class="hero-img" src="Landing-images/Tyler-landing-page.jpeg" alt="Picture of Tyler"></a>
         </div>
-        <div class="hero2">
-            <h2>Projects</h2>
+        <h2 id = "projects">Projects</h2>
+        <div id ="hero2">  
             <div class="cards">
                 <div class="card">
                     <a href="https://tnoble-cmd.github.io/odin-recipes/index.html" target="_blank">
                     <img class="content-img" src="Landing-images/recipies-img.png" alt="Recipe Image">
                     </a>
-                    <p>Project: Recipes</p>
+                    <p id = "pcard">Project: Recipes</p>
                 </div>
                 <div class="card">
                     <div class="content-img"></div>
-                    <p>Project: Rock Paper Scissors</p>
+                    <p id = "pcard">Project: Rock Paper Scissors</p>
                 </div>
                 <div class="card">
                     <div class="content-img"></div>
-                    <p>Project: Etch-a-Sketch</p>
+                    <p id = "pcard">Project: Etch-a-Sketch</p>
                 </div>
                 <div class="card">
                     <div class="content-img"></div>
-                    <p>Project: Calculator</p>
-                </div>  
-                 
+                    <p id = "pcard">Project: Calculator</p>
+                </div>   
             </div>
         </div>
         <div class = "quote">
-            
+            <h1 id = "quote">"Adriiiiaaaaaan"</h1>
+            <p>-Rocky Balboa</p>
         </div>
         <div class = "contact-me">
-
+            <h3 id="connect">Connect With Me:</h3>
+           <a href="https://www.facebook.com/tyler.noble.31" target="_blank"><i class="fa-brands fa-facebook fa-beat-fade fa-5x" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i></a>
+           <a href="https://www.linkedin.com/in/tyler-noble-a645951a6/" target="_blank"><i class="fa-brands fa-linkedin fa-beat-fade fa-5x" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i></a>
+           <a href="https://github.com/tnoble-cmd" target="_blank"><i class="fa-brands fa-github fa-beat-fade fa-5x" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i></a>
         </div>
     
         <div class = "footer">
